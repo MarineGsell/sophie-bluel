@@ -41,7 +41,6 @@ export function switchModaleFormulaire() {
     
     // Page Formulaire
     btnAjoutPhoto.addEventListener("click", () => {
-        console.log("hemllo")
         formulaireModale ()
     })
 }

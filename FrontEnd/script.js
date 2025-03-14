@@ -10,8 +10,6 @@ export async function getWorks() {
 }
 let works = await getWorks()
 
-console.log("hello")
-
 //Récupération du token
 const token = window.localStorage.getItem("token")
 
