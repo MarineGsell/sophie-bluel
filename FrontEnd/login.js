@@ -18,7 +18,7 @@ async function recupUser(admin) {
             window.localStorage.setItem("token", token)
 
             // Redirection vers la page d'accueil
-            window.location.href = "http://127.0.0.1:5500/index.html"
+            window.location.href = "index.html"
         } else {
 
             // Affichage du message d'erreur
